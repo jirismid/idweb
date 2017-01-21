@@ -1,0 +1,35 @@
+div#feature_list {width: 992px;height: 370px;overflow: hidden;position: absolute;left:-352px;top:-385px;}
+div#feature_list h3 {margin: 0;padding: 0;font-size: 23px;text-transform: uppercase;}
+div#feature_list ul {position: absolute;top: 0;left:0;list-style: none;padding: 0;margin: 0;}
+div#feature_list ul#tabs {width: 316px;height: 355px;background: url(tabs-bg.png) no-repeat 0 0;padding: 15px 0 0 16px;z-index: 1;}
+
+#feature_list .bor-t,#feature_list .bor-l,#feature_list .bor-b{background:url(image-border.png) no-repeat 0 0;position:absolute;right:0;height:370px;width:660px;}
+#feature_list .bor-t{background-position:0 0;top:0;height:20px;}
+#feature_list .bor-l{background-position:center right;top:20px;height:330px;width:20px;}
+#feature_list .bor-b{background-position:bottom right;height:20px;bottom:0;}
+
+ul#tabs li {font-size: 14px;}
+ul#tabs li img {padding: 5px;border: none;float: left;margin: 10px 10px 0 0;}
+ul#tabs li a {color: #333;text-decoration: none;display: block;padding: 15px 0 15px 10px;line-height:38px;font-size: 18px;height: 38px;outline: none;text-shadow:1px 1px #fff;}
+ul#tabs li:first-child a{border-radius:6px 0 0 0}
+ul#tabs li:last-child a{border-radius:0 0 0 6px}
+
+ul#tabs li a:hover {text-decoration: underline;}
+
+ul#tabs li a.current {position:relative;background: #ffb900 url(feature-tab.png) repeat-x 0 -77px;color: #000;text-shadow:1px 1px #ee8402}
+ul#tabs li a.current:before{content:''; position:absolute;right:-12px; top:23px;width:12px; height:25px;background: url(feature-tab.png) no-repeat 0 -154px;}
+ul#tabs li a.current:hover {text-decoration: none;cursor: default;}
+
+ul#tabs li h2 {font-size: 14px;line-height: 18px;color: #fff;font-weight: normal;padding: 0;}
+
+div#feature_list ul#output {width: 650px;height: 340px;background: #24282d;position: absolute;right: 15px;top: 15px;left:auto; overflow:hidden}
+
+ul#output li {width: 650px; height: 340px;margin:0; padding:0}
+ul#output li .popis{position:absolute; width: 602px; left:0; bottom:0; background:url(slider-popis-bg.png); color:#fff; padding:15px 30px; font-size:15px;}
+ul#output li h2 {padding: 5px 0 10px;}
+ul#output li h2 span{display:none;}
+ul#output li h2 a{ color:#fff}
+ul#output li p{ color:#fff; font-size:15px; padding:0;}
+ul#output li p a{ color:#fff}
+ul#output li p a.cely-clanek-link{padding: 0;margin: 0 0 0 5px;line-height: 21px;height: 21px;width: 102px;background: #faa901;display: inline-block;text-align: center;font-size: 13px;color: #000; text-decoration:none; border-radius:3px}
+ul#output li p a.cely-clanek-link:hover{background:#ffba00}
