@@ -1,0 +1,167 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="Copyright" content="idweb.cz" />
+  <meta name="author" content="2013 (c) idweb.cz" />
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />-->
+  <link href="/favicon.ico" rel="Shortcut Icon" />
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+  <link href="http://cdn.idweb.cz/css/admin.css" rel="stylesheet" type="text/css" />
+  <link href="/design/css/global.css" rel="stylesheet" type="text/css" />
+  <link href="http://cdn.idweb.cz/js/js-css-min.css" rel="stylesheet" type="text/css" media="screen" />
+  
+  <script src="http://cdn.idweb.cz/Scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+  <script src="http://cdn.idweb.cz/Scripts/jquery-ui-1.8.11.min.js" type="text/javascript"></script>
+  <script src="http://cdn.idweb.cz/js/js-min.js" type="text/javascript"></script>
+
+    <title>Vytváříme firemní vizuální styl  | ID web</title>
+  <meta name="Description" content='IDweb - I vaší firmě dáme tvář na internetu, vytváříme firemní vizuální styl. TO jistě' lang='cs' />
+  <meta name="Keywords" content='idweb' lang='cs' />
+
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        $(document).ready(function () {
+            $('body').addClass('slowImg');
+            $(".fancybox").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none'
+            });
+            $("#editTabs").tabs();
+
+            $("#tabs").tabs({
+                select: function (event, ui) {
+                    window.location.hash = ui.tab.hash;
+                }
+            });
+    
+            $('.slider ul').anythingSlider({
+                // Function
+                buildStartStop: false,
+                autoPlay: true,
+                delay: 5000,
+                hashTags: false,
+                toggleArrows: true,
+                //mode: "fade",
+                //easing: "linear",
+                buildArrows: false
+            });
+
+
+            if ($("#resultMessage").val() != "") {
+                $.fancybox($("#resultMessage").val(),
+                    { openEffect: 'none',
+                        closeEffect: 'none'
+                    });
+            }
+
+            var rMsg = $("#resultMessage");
+            if (rMsg != null && rMsg.html() != "") {
+                $.fancybox(rMsg.html());
+            }
+        });
+        /*]]>*/
+    </script>
+</head>
+<body id='cs-' class='cs'>
+<input type="hidden" id="resultMessage" value='' />
+<div id="bodyIn">
+<div id="container">
+
+
+<div id="header"> 
+  <div id="logo"><a href="/" title="Gebhardt GTP">Gebhardt GTP - výrobce cyklistických komponent<span><!-- --></span></a></div> 
+    
+        <div id="menu">
+            <ul>
+                <li class='active cs-  active-submenu'><a class='active ' title='Úvod' href='/'>Úvod</a></li><li class='cs-fotografie-firem-business-view  '><a class='' title='Fotografie firem' href='/cs/fotografie-firem-business-view'>Fotografie firem</a></li><li class='cs-o-nas  '><a class='' title='O nás' href='/cs/o-nas'>O nás</a></li><li class='cs-sluzby  '><a class='' title='Služby' href='/cs/sluzby'>Služby</a></li><li class='cs-kariera  '><a class='' title='Kariéra' href='/cs/kariera'>Kariéra</a></li><li class='cs-reference  '><a class='' title='Reference' href='/cs/reference'>Reference</a></li><li class='cs-faq-casto-kladene-otazky  '><a class='' title='FAQ' href='/cs/faq-casto-kladene-otazky'>FAQ</a></li><li class='cs-kontakt  '><a class='' title='Kontakt' href='/cs/kontakt'>Kontakt</a></li><li class='cs-pf-2014  '><a class='' title='PF 2014' href='/cs/pf-2014'>PF 2014</a></li>
+            </ul>
+        </div>
+
+    <p class="lang"><a class="cs active" href="/cs/">Česky</a></p>
+</div>  
+
+
+<div id="page">
+  <div id="content">
+  
+             
+
+
+
+
+<h1>Vytváříme firemní vizuální styl</h1>
+
+
+
+
+<div id="homepageBlok">
+<h2>I vaší firmě dáme tvář ve světě internetu</h2>
+</div>
+
+
+
+
+
+
+
+
+  <div class="clear"></div>
+  </div>  
+  
+<div id="sidebar"> 
+</div>
+  
+  
+
+<div class="clear"></div>
+</div>
+
+
+<div id="footer">
+    <div id="footer-in">
+  
+  <div id="google_translate_element"></div>
+      <script>
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+          pageLanguage: 'cs',
+          includedLanguages: 'en,cs,fr,hr,it,ja,de,es',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+        }
+      </script>
+      <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  
+    
+       <div id="copyright">2014 &copy; <a href="/" title="Gebhardt GTP">Gebhardt GTP</a>
+    <p>Nepřihlášen, <a href="/cs/login">přihlásit</a></p>
+</div>
+    <p id="madeBy"><a id="madeByLink" href="http://www.idweb.cz" target="_blank" title="Tento projekt realizoval IDweb.cz - Dejte světu vědět, že existujete">Realizoval: <strong>IDweb.cz</strong></a></p>
+  </div>
+    </div>
+</div>   
+</div>
+</div>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+        
+    _gaq.push(['_setAccount', 'UA-38902975-1']);    
+
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+</body>
+</html>
